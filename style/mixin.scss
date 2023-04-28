@@ -1,0 +1,11 @@
+@mixin flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin font {
+  font-size: 60px;
+  color: darkblue;  
+  text-align: center
+}

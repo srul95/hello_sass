@@ -1,0 +1,28 @@
+@import 'mixin';
+@import 'reset';
+
+body{
+  @include flexy;
+  flex-direction: column;
+  @include font;
+  background-color: goldenrod
+}
+
+
+.outbox{
+  border: 2px solid greenyellow;
+  width: 300px;
+  height: 300px;
+  padding: 40px;
+  @include flexy
+  
+}
+
+.inbox{
+  background-color: hotpink;
+  height: 200px;
+  width: 200px;
+  @include flexy;
+  @include font;
+  
+}
